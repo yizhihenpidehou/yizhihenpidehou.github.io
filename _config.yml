@@ -40,7 +40,7 @@ social:
   links:
     - https://github.com/yizhihenpidehou
 lang: en
-skin: midnight
+skin: daylight
 plugins:
   - jekyll-remote-theme
 
