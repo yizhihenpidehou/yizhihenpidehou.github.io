@@ -1,21 +1,48 @@
-title: Abhishek Nagekar
-description: Web & Security Engineer
-site_title: '@abhn - Abhishek Nagekar'
+title: Bodian Ye's Homepage
+description: A first year master student in Fudan University
+author: Bodian Ye
+avatar: /logo.png
+email: bdye22@m.fudan.edu.cn
+location: Shanghai
 
-# Build settings
-markdown: kramdown
-exclude: [vendor/ruby]
+plugins:
+  - jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-paginate
 
-# Personalization
-github_username: abhn
-blog_url: https://www.nagekar.com
-email: abhishek@nagekar.com
-keybase_username: abhn
-twitter_username: abhn_
-reddit_username: abhn
+paginate: 5
 
-# absolute or relative
-profile_picture: assets/images/pp.jpg
+# Uncomment the below line and set the tracking ID for enabling Google Analytics
+# 
+# google_analytics: 
 
-# Google Analytics ID
-google_analytics: 
+# Uncomment the below lines and set the Disqus shortname for enabling Disqus
+# 
+# disqus:
+
+# Jekyll
+# ======
+exclude:
+  - scripts/
+  - README.md
+  - jekyll-theme-hamilton.gemspec
+
+# Jekyll SEO Tag (Optional)
+# =========================
+twitter:
+  username: yizhihenpidehou
+  card: summary
+logo: logo.png
+
+social:
+  name: Bodian Ye
+  links:
+    - https://github.com/yizhihenpidehou
+lang: en
+skin: midnight
+plugins:
+  - jekyll-remote-theme
+
+remote_theme: ngzhio/jekyll-theme-hamilton
+subscribe: False
